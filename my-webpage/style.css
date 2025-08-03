@@ -1,0 +1,105 @@
+/* General reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f6fc; /* soft light blue */
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header styling */
+header {
+  background-color: #283e63; /* deep blue */
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+nav ul li a:hover {
+  background-color: #f7c948; /* yellow hover */
+  color: #283e63;
+}
+
+/* Main layout */
+main {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+h2 {
+  color: #283e63;
+  margin-bottom: 15px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+ul {
+  text-align: left;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* Image and figure styles */
+figure {
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+figcaption {
+  margin-top: 8px;
+  font-style: italic;
+  color: #666;
+}
+
+/* Footer styles */
+footer {
+  background-color: #283e63;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
